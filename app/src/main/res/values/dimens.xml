@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_pregunta">20sp</dimen>
+    <dimen name="padding_pregunta">24dp</dimen>
+
+    <dimen name="margin_pregunta_text">20sp</dimen>
     <dimen name="margin_button">1sp</dimen>
+    <dimen name="margin_nPregunta_text">250sp</dimen>
+    <dimen name="margin_nAciertos_text">15sp</dimen>
+
+    <dimen name="size_letra">20sp</dimen>
 </resources>
