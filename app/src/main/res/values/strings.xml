@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <!-- verdadero -->
+    <string name="pregunta0">El Museo Nacional del Prado es uno de los más importantes del mundo y se encuentra en Madrid, España.</string>
+    <!-- falso -->
+    <string name="pregunta1">Malasia es uno de los 14 países que conforma Oceanía.</string>
+    <!-- verdadero -->
+    <string name="pregunta2">La capital de Lituania es Vilna.</string>
+    <!-- verdadero -->
+    <string name="pregunta3">Chile tiene tres zonas geográficas; Chile continental, Chile insular y el Territorio Chileno Antártico.</string>
+    <!-- falso  -->
+    <string name="pregunta4">Burkina Faso es un país del Sudeste Asiático.</string>
+    <!-- falso -->
+    <string name="pregunta5">La ciudad de San Petersburgo era llamada antiguamente Stalingrado.</string>
+    <!-- falso -->
+    <string name="pregunta6"> Mauna Kea es el volcán más alto del mundo.</string>
+
+    <string name="correct">Correcto!!</string>
+    <string name="incorrect">Incorrecto!!</string>
+    <string name="verdadero_button">Verdadero</string>
+    <string name="falso_button">Falso</string>
+    <string name="notQuestion">No hay más preguntas</string>
+    <string name="nPreguntas_text">Pregunta :</string>
+    <string name="nAciertos">0</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        >
+        <TextView
+            android:id="@+id/naciertos_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/margin_pregunta"
+            android:text="@string/nAciertos"/>
+
+        <TextView
+            android:id="@+id/nPreguntas_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/naciertos_textView"
+            android:textSize="@dimen/margin_pregunta"
+            android:text="@string/nPreguntas_text" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/pregunta_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/margin_pregunta"
+        android:text="@string/pregunta0"
+        android:padding="24dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/verdadero_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginRight="@dimen/margin_pregunta"
+            android:text="@string/verdadero_button" />
+        <Button
+            android:id="@+id/falso_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:text="@string/falso_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/anterior_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/margin_button"
+            android:background="@color/purple_200"
+            android:src="@drawable/arrow_left"/>
+        <ImageButton
+            android:id="@+id/siguiente_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:background="@color/purple_200"
+            android:src="@drawable/arrow_right"/>
+    </LinearLayout>
+</LinearLayout>
